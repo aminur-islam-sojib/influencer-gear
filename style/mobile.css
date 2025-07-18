@@ -1,0 +1,39 @@
+@media screen and (max-width: 776px) {
+    /* Header */
+    header {
+        margin: 0;
+    }
+    .header {
+        margin: 1rem;
+        justify-content: center;
+    }
+    .logo h1{
+        text-align: center;
+    }
+    ul {
+        display: none;
+    }
+    .container {
+        flex-direction: column-reverse;
+    }
+    .text-content{
+        text-align: center;
+    }
+    .section-title {
+        font-size: 28px;
+    }
+    .text-content p {
+        margin: 20 0;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .sponcer {
+        display: flex;
+        justify-content: center;
+    }
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 80%;
+    }
+}
