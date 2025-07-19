@@ -1,3 +1,27 @@
-@media screen and (min-width : 768px) and (max-width : 992px) {
-    
+@media screen and (min-width : 767px) and (max-width : 992px) {
+    header {
+        margin: 2rem 3rem;
+    }
+    ul,
+    .icons {
+        gap: 13px;
+    }
+    .container {
+        margin-top: 80px;
+    }
+    .image-content {
+        margin-top: 0;
+    }
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        justify-content: center;
+        gap: 1rem;
+    }
+    .collection {
+        margin: 0 80px;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 766px) {
     /* Header */
     header {
         margin: 0;
@@ -35,5 +35,13 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         width: 80%;
+    }
+
+    /* Card */
+    .collection {
+        margin: 40px 40px;
+    }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

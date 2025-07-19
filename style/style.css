@@ -44,3 +44,38 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
 }
+/* Header Close */
+
+/* Popular Sec */
+.collection {
+    margin: 0 150px;
+}
+.card {
+    padding: 25px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.card:hover{
+    scale: 1.05;
+}
+.card h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.card h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+.review {
+    width: 100px;
+    gap: 10px;
+}
+.card p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
