@@ -1,10 +1,9 @@
-*{
-    /* border: 1px solid black; */
-}
 body{
     font-family: "Poppins", sans-serif;
     background-color: #f2f2f2;
     color: #3A3A3A;
+    max-width: 1260px;
+    margin: 0 auto;
 }
 /* Shared Value */
 .btn {
@@ -87,4 +86,16 @@ header {
 .image-sec img{
     width: 600px;
     height: auto;
+}
+
+/* footer */
+footer {
+    background-color: #000000;
+}
+footer p {
+    font-size: 14px;
+}
+.icons i{
+    margin-right: 5px;
+    cursor: pointer;
 }
