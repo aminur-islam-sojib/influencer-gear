@@ -12,6 +12,8 @@
     .image-content {
         margin-top: 0;
     }
+
+    /* Cards */
     .brands {
         display: grid;
         grid-template-columns: repeat(4, auto);
@@ -23,5 +25,15 @@
     }
     .cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* feature */
+    .feture {
+        margin: 80px;
+        gap: 30px;
+    }
+    .image-sec img {
+        width: 700px;
+        height: auto;
     }
 }

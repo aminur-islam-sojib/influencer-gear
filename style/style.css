@@ -16,6 +16,7 @@ body{
     transition: .5s;
     position: relative;
     left: 0;
+    cursor: pointer;
 }
 .btn:hover {
     background-color: #000000;
@@ -44,7 +45,6 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
 }
-/* Header Close */
 
 /* Popular Sec */
 .collection {
@@ -78,4 +78,13 @@ header {
     font-size: 12px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+/* Feture */
+.feture {
+    margin: 80px 150px;
+}
+.image-sec img{
+    width: 600px;
+    height: auto;
 }
